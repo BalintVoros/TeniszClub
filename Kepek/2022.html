@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>
+        TeniszClub
+    </title>
+<link rel="stylesheet" href="../galeria.css">
+<link rel="script" href="script.js">
+<script>
+  const menu = document.getElementById("menu");
+
+Array.from(document.getElementsByClassName("menu-item"))
+  .forEach((item, index) => {
+    item.onmouseover = () => {
+      menu.dataset.activeIndex = index;
+    }
+  });
+</script>
+</head>
+<body>
+    <div id="menu">
+        <div id="menu-items">
+         <div class="menu-item"> <a href="../kezdooldal.html">Kezdőoldal</a></div>
+         <div class="menu-item"> <a href="../galeria.html">Vissza a Galériaba</a></div>
+         <div class="menu-item"> <a href="újlap.html">2015</a></div>
+         <div class="menu-item"> <a href="újlap.html">2016</a></div>
+         <div class="menu-item"> <a href="újlap.html">2017</a></div>
+         <div class="menu-item"> <a href="újlap.html">2018</a></div>
+         <div class="menu-item"> <a href="újlap.html">2019</a></div>
+         <div class="menu-item"> <a href="újlap.html">2020</a></div>
+         <div class="menu-item"> <a href="újlap.html">2021</a></div>
+         <div class="menu-item"> <a href="újlap.html">2022</a></div>
+
+          
+        </div>
+        <div id="menu-background-pattern"></div>
+        <div id="menu-background-image"></div>
+      </div>
+        
+</body>
+  </html>
