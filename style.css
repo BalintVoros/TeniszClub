@@ -1,6 +1,7 @@
 body {
     background-color: rgb(20, 20, 20);
     margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   #menu {  
@@ -192,3 +193,8 @@ body {
   #tdRolunk{
     text-align: center;
   }
+#kapcsolat{
+  font-size: x-large;
+  font-family:'Courier New', Courier, monospace;
+  color: white;
+}
